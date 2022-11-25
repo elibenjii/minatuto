@@ -30,7 +30,7 @@ export default function App() {
 
         console.log("Loading SnarkyJS...")
         await zkappWorkerClient.loadSnarkyJS()
-        console.log("done")
+        console.log("done test")
 
         await zkappWorkerClient.setActiveInstanceToBerkeley()
 
